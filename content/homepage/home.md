@@ -7,11 +7,5 @@ draft: false
 ## 1. Motivation 
 de
 
-<iframe src="/website/static/htmlmaps/map_tree_allspec.html"
-	sandbox="allow-same-origin allow-scripts"
-	width="100%"
-	height="500"
-	scrolling="no"
-	seamless="seamless"
-	frameborder="0">
-</iframe>
+
+{{< include-html "/static/htmlmaps/map_tree_allspec.html" >}}
