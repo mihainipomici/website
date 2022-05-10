@@ -8,3 +8,5 @@ theme = "hyde"
   themeColor = "theme-base-0b"
   authorImage = "/images/avatar.jpg"
 
+[markup.goldmark.renderer]
+  unsafe = true
