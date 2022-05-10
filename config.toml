@@ -1,3 +1,10 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://socia-data-visualization.netlify.app/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Trees in New York!'
+theme = "hyde"
+
+[params]
+  description = "A study on the impact of trees on air quality in New York"
+  themeColor = "theme-base-0b"
+  authorImage = "/images/avatar.jpg"
+
