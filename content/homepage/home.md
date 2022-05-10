@@ -7,5 +7,3 @@ draft: false
 ## 1. Motivation 
 de
 
-
-{{< include-html "/static/htmlmaps/map_tree_allspec.html" >}}
