@@ -7,7 +7,7 @@ draft: false
 ## 1. Motivation 
 de
 
-<iframe src="static/htmlmaps/map_tree_allspec.html"
+<iframe src="map_tree_allspec.html"
 	sandbox="allow-same-origin allow-scripts"
 	width="100%"
 	height="500"
