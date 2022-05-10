@@ -1,4 +1,4 @@
-baseURL = 'https://socia-data-visualization.netlify.app/'
+baseURL = 'https://master--socia-data-visualization.netlify.app/'
 languageCode = 'en-us'
 title = 'Trees in New York!'
 theme = "hyde"
