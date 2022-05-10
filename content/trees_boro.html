@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Number of trees for each borough</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.4.2.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="3f74f859-bb8b-47fe-900f-9261837e49c8" data-root-id="4450"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="5487">
+          {"e426fa98-6ff6-41c5-af14-f5e853c67a43":{"defs":[],"roots":{"references":[{"attributes":{"tabs":[{"id":"4447"},{"id":"4448"},{"id":"4449"}]},"id":"4450","type":"Tabs"},{"attributes":{"axis_label":"Borough","axis_label_text_font_size":"17pt","coordinates":null,"formatter":{"id":"1575"},"group":null,"major_label_policy":{"id":"1576"},"major_label_text_font_size":"14px","ticker":{"id":"1442"}},"id":"1441","type":"CategoricalAxis"},{"attributes":{},"id":"1591","type":"UnionRenderers"},{"attributes":{},"id":"1592","type":"Selection"},{"attributes":{"fill_color":{"value":"#7EA310"},"hatch_color":{"value":"#7EA310"},"line_color":{"value":"#7EA310"},"top":{"field":"Category_counts"},"width":{"value":0.9},"x":{"field":"boroname"}},"id":"1450","type":"VBar"},{"attributes":{},"id":"1442","type":"CategoricalTicker"},{"attributes":{"source":{"id":"1429"}},"id":"1454","type":"CDSView"},{"attributes":{},"id":"1581","type":"CategoricalTickFormatter"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#7EA310"},"hatch_alpha":{"value":0.1},"hatch_color":{"value":"#7EA310"},"line_alpha":{"value":0.1},"line_color":{"value":"#7EA310"},"top":{"field":"Category_counts"},"width":{"value":0.9},"x":{"field":"boroname"}},"id":"1451","type":"VBar"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":{"value":"#7EA310"},"hatch_alpha":{"value":0.2},"hatch_color":{"value":"#7EA310"},"line_alpha":{"value":0.2},"line_color":{"value":"#7EA310"},"top":{"field":"Category_counts"},"width":{"value":0.9},"x":{"field":"boroname"}},"id":"1452","type":"VBar"},{"attributes":{},"id":"1593","type":"UnionRenderers"},{"attributes":{"data":{"Category_counts":[128866,189320,87684,194116,109903],"Total in category":[709889,709889,709889,709889,709889],"Total trees in borough":[155876,241968,115638,255336,134590],"boroname":["Bronx","Brooklyn","Manhattan","Queens","Staten Island"],"fract_bor":{"__ndarray__":"FiwRGoB06j9pqwZykAnpPyNoYHawQ+g/yCcgk91T6D8ixhOOZCHqPw==","dtype":"float64","order":"little","shape":[5]},"fract_cat":{"__ndarray__":"XK5XPF48xz8+BTItcRHRP1d194Xenr8/4a601SGA0T+6Lt96DNHDPw==","dtype":"float64","order":"little","shape":[5]},"health":["Good","Good","Good","Good","Good"],"index":[5,6,7,8,9]},"selected":{"id":"1590"},"selection_policy":{"id":"1589"}},"id":"1429","type":"ColumnDataSource"},{"attributes":{"callback":null,"tooltips":[["Count","@Category_counts"],["Fraction out of all good health trees","@fract_cat{0.2f}"],["Fraction out of good health trees in this borough","@fract_bor{0.2f}"]]},"id":"1455","type":"HoverTool"},{"attributes":{},"id":"1594","type":"Selection"},{"attributes":{},"id":"1437","type":"CategoricalScale"},{"attributes":{"axis_label":"Nr. of trees","axis_label_text_font_size":"17pt","coordinates":null,"formatter":{"id":"1572"},"group":null,"major_label_policy":{"id":"1573"},"major_label_text_font_size":"14px","ticker":{"id":"1445"}},"id":"1444","type":"LinearAxis"},{"attributes":{"axis":{"id":"1444"},"coordinates":null,"dimension":1,"group":null,"ticker":null},"id":"1447","type":"Grid"},{"attributes":{},"id":"1445","type":"BasicTicker"},{"attributes":{"coordinates":null,"data_source":{"id":"1429"},"glyph":{"id":"1450"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"1452"},"nonselection_glyph":{"id":"1451"},"view":{"id":"1454"}},"id":"1453","type":"GlyphRenderer"},{"attributes":{"children":[{"id":"4445"}]},"id":"4446","type":"Column"},{"attributes":{},"id":"1439","type":"LinearScale"},{"attributes":{"axis":{"id":"1469"},"coordinates":null,"group":null,"ticker":null},"id":"1471","type":"Grid"},{"attributes":{"align":"center","coordinates":null,"group":null,"text":"Nr. of good health trees in each borough","text_color":"#7EA310","text_font_size":"22px"},"id":"1431","type":"Title"},{"attributes":{"axis":{"id":"1441"},"coordinates":null,"group":null,"ticker":null},"id":"1443","type":"Grid"},{"attributes":{},"id":"1435","type":"DataRange1d"},{"attributes":{"below":[{"id":"1441"}],"center":[{"id":"1443"},{"id":"1447"}],"left":[{"id":"1444"}],"renderers":[{"id":"1453"}],"title":{"id":"1431"},"toolbar":{"id":"1448"},"width":800,"x_range":{"id":"1433"},"x_scale":{"id":"1437"},"y_range":{"id":"1435"},"y_scale":{"id":"1439"}},"id":"1430","subtype":"Figure","type":"Plot"},{"attributes":{"factors":["Bronx","Brooklyn","Manhattan","Queens","Staten Island"]},"id":"1433","type":"FactorRange"},{"attributes":{"tools":[{"id":"1455"}]},"id":"1448","type":"Toolbar"},{"attributes":{"align":"center","coordinates":null,"group":null,"text":"Nr. of fair health trees in each borough","text_color":"#7EA310","text_font_size":"22px"},"id":"1459","type":"Title"},{"attributes":{},"id":"1585","type":"AllLabels"},{"attributes":{},"id":"1498","type":"CategoricalTicker"},{"attributes":{"below":[{"id":"1497"}],"center":[{"id":"1499"},{"id":"1503"}],"left":[{"id":"1500"}],"renderers":[{"id":"1509"}],"title":{"id":"1487"},"toolbar":{"id":"1504"},"width":800,"x_range":{"id":"1489"},"x_scale":{"id":"1493"},"y_range":{"id":"1491"},"y_scale":{"id":"1495"}},"id":"1486","subtype":"Figure","type":"Plot"},{"attributes":{"child":{"id":"4446"},"title":"Poor Health"},"id":"4449","type":"Panel"},{"attributes":{},"id":"1493","type":"CategoricalScale"},{"attributes":{},"id":"1572","type":"BasicTickFormatter"},{"attributes":{"align":"center","coordinates":null,"group":null,"text":"Nr. of poor health trees in each borough","text_color":"#7EA310","text_font_size":"22px"},"id":"1487","type":"Title"},{"attributes":{"fill_color":{"value":"#7EA310"},"hatch_color":{"value":"#7EA310"},"line_color":{"value":"#7EA310"},"top":{"field":"Category_counts"},"width":{"value":0.9},"x":{"field":"boroname"}},"id":"1506","type":"VBar"},{"attributes":{"axis_label":"Borough","axis_label_text_font_size":"17pt","coordinates":null,"formatter":{"id":"1581"},"group":null,"major_label_policy":{"id":"1582"},"major_label_text_font_size":"14px","ticker":{"id":"1470"}},"id":"1469","type":"CategoricalAxis"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":{"value":"#7EA310"},"hatch_alpha":{"value":0.2},"hatch_color":{"value":"#7EA310"},"line_alpha":{"value":0.2},"line_color":{"value":"#7EA310"},"top":{"field":"Category_counts"},"width":{"value":0.9},"x":{"field":"boroname"}},"id":"1508","type":"VBar"},{"attributes":{},"id":"1467","type":"LinearScale"},{"attributes":{},"id":"1584","type":"BasicTickFormatter"},{"attributes":{},"id":"1491","type":"DataRange1d"},{"attributes":{},"id":"1587","type":"CategoricalTickFormatter"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#7EA310"},"hatch_alpha":{"value":0.1},"hatch_color":{"value":"#7EA310"},"line_alpha":{"value":0.1},"line_color":{"value":"#7EA310"},"top":{"field":"Category_counts"},"width":{"value":0.9},"x":{"field":"boroname"}},"id":"1507","type":"VBar"},{"attributes":{},"id":"1470","type":"CategoricalTicker"},{"attributes":{},"id":"1588","type":"AllLabels"},{"attributes":{},"id":"1573","type":"AllLabels"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#7EA310"},"hatch_alpha":{"value":0.1},"hatch_color":{"value":"#7EA310"},"line_alpha":{"value":0.1},"line_color":{"value":"#7EA310"},"top":{"field":"Category_counts"},"width":{"value":0.9},"x":{"field":"boroname"}},"id":"1479","type":"VBar"},{"attributes":{"children":[{"id":"4441"}]},"id":"4442","type":"Column"},{"attributes":{},"id":"1575","type":"CategoricalTickFormatter"},{"attributes":{"axis_label":"Borough","axis_label_text_font_size":"17pt","coordinates":null,"formatter":{"id":"1587"},"group":null,"major_label_policy":{"id":"1588"},"major_label_text_font_size":"14px","ticker":{"id":"1498"}},"id":"1497","type":"CategoricalAxis"},{"attributes":{"axis":{"id":"1472"},"coordinates":null,"dimension":1,"group":null,"ticker":null},"id":"1475","type":"Grid"},{"attributes":{"children":[{"id":"1430"}]},"id":"4441","type":"Row"},{"attributes":{"factors":["Bronx","Brooklyn","Manhattan","Queens","Staten Island"]},"id":"1489","type":"FactorRange"},{"attributes":{},"id":"1576","type":"AllLabels"},{"attributes":{},"id":"1589","type":"UnionRenderers"},{"attributes":{"source":{"id":"1485"}},"id":"1510","type":"CDSView"},{"attributes":{"fill_color":{"value":"#7EA310"},"hatch_color":{"value":"#7EA310"},"line_color":{"value":"#7EA310"},"top":{"field":"Category_counts"},"width":{"value":0.9},"x":{"field":"boroname"}},"id":"1478","type":"VBar"},{"attributes":{},"id":"1590","type":"Selection"},{"attributes":{"children":[{"id":"1458"}]},"id":"4443","type":"Row"},{"attributes":{},"id":"1501","type":"BasicTicker"},{"attributes":{"data":{"Category_counts":[20984,41542,21274,47584,19034],"Total in category":[150418,150418,150418,150418,150418],"Total trees in borough":[155876,241968,115638,255336,134590],"boroname":["Bronx","Brooklyn","Manhattan","Queens","Staten Island"],"fract_bor":{"__ndarray__":"3aMQ8zg7wT9McuCXvPnFP3AMRc9ZjMc/N93USZfaxz9qFDaIHhrCPw==","dtype":"float64","order":"little","shape":[5]},"fract_cat":{"__ndarray__":"gbaXPUnbwT+aEu+E4qzRP62hxiV2GsI/CCBOmP8+1D+OQidifDLAPw==","dtype":"float64","order":"little","shape":[5]},"health":["Fair","Fair","Fair","Fair","Fair"],"index":[0,1,2,3,4]},"selected":{"id":"1592"},"selection_policy":{"id":"1591"}},"id":"1457","type":"ColumnDataSource"},{"attributes":{},"id":"1582","type":"AllLabels"},{"attributes":{"callback":null,"tooltips":[["Count","@Category_counts"],["Fraction out of all fair health trees","@fract_cat{0.2f}"],["Fraction out of good fair trees in this borough","@fract_bor{0.2f}"]]},"id":"1483","type":"HoverTool"},{"attributes":{"tools":[{"id":"1511"}]},"id":"1504","type":"Toolbar"},{"attributes":{"children":[{"id":"4443"}]},"id":"4444","type":"Column"},{"attributes":{"coordinates":null,"data_source":{"id":"1485"},"glyph":{"id":"1506"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"1508"},"nonselection_glyph":{"id":"1507"},"view":{"id":"1510"}},"id":"1509","type":"GlyphRenderer"},{"attributes":{"data":{"Category_counts":[6026,11106,6680,13636,5653],"Total in category":[43101,43101,43101,43101,43101],"Total trees in borough":[155876,241968,115638,255336,134590],"boroname":["Bronx","Brooklyn","Manhattan","Queens","Staten Island"],"fract_bor":{"__ndarray__":"J6+qkhrLoz87gBOABoCnPw5M5VyRk60/nQ6qpslXqz8/TOv9PIGlPw==","dtype":"float64","order":"little","shape":[5]},"fract_cat":{"__ndarray__":"Og2x21TlwT9HPodmun3QP8DAbMKK1sM/DsGdQHU/1D9dM5gTwcnAPw==","dtype":"float64","order":"little","shape":[5]},"health":["Poor","Poor","Poor","Poor","Poor"],"index":[10,11,12,13,14]},"selected":{"id":"1594"},"selection_policy":{"id":"1593"}},"id":"1485","type":"ColumnDataSource"},{"attributes":{},"id":"1465","type":"CategoricalScale"},{"attributes":{"axis":{"id":"1497"},"coordinates":null,"group":null,"ticker":null},"id":"1499","type":"Grid"},{"attributes":{},"id":"1473","type":"BasicTicker"},{"attributes":{"below":[{"id":"1469"}],"center":[{"id":"1471"},{"id":"1475"}],"left":[{"id":"1472"}],"renderers":[{"id":"1481"}],"title":{"id":"1459"},"toolbar":{"id":"1476"},"width":800,"x_range":{"id":"1461"},"x_scale":{"id":"1465"},"y_range":{"id":"1463"},"y_scale":{"id":"1467"}},"id":"1458","subtype":"Figure","type":"Plot"},{"attributes":{"factors":["Bronx","Brooklyn","Manhattan","Queens","Staten Island"]},"id":"1461","type":"FactorRange"},{"attributes":{"axis_label":"Nr. of trees","axis_label_text_font_size":"17pt","coordinates":null,"formatter":{"id":"1578"},"group":null,"major_label_policy":{"id":"1579"},"major_label_text_font_size":"14px","ticker":{"id":"1473"}},"id":"1472","type":"LinearAxis"},{"attributes":{"children":[{"id":"1486"}]},"id":"4445","type":"Row"},{"attributes":{"source":{"id":"1457"}},"id":"1482","type":"CDSView"},{"attributes":{},"id":"1495","type":"LinearScale"},{"attributes":{"child":{"id":"4444"},"title":"Fair Health"},"id":"4448","type":"Panel"},{"attributes":{"coordinates":null,"data_source":{"id":"1457"},"glyph":{"id":"1478"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"1480"},"nonselection_glyph":{"id":"1479"},"view":{"id":"1482"}},"id":"1481","type":"GlyphRenderer"},{"attributes":{},"id":"1578","type":"BasicTickFormatter"},{"attributes":{"tools":[{"id":"1483"}]},"id":"1476","type":"Toolbar"},{"attributes":{},"id":"1463","type":"DataRange1d"},{"attributes":{},"id":"1579","type":"AllLabels"},{"attributes":{"child":{"id":"4442"},"title":"Good Health"},"id":"4447","type":"Panel"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":{"value":"#7EA310"},"hatch_alpha":{"value":0.2},"hatch_color":{"value":"#7EA310"},"line_alpha":{"value":0.2},"line_color":{"value":"#7EA310"},"top":{"field":"Category_counts"},"width":{"value":0.9},"x":{"field":"boroname"}},"id":"1480","type":"VBar"},{"attributes":{"callback":null,"tooltips":[["Count","@Category_counts"],["Fraction out of all poor health trees","@fract_cat{0.2f}"],["Fraction out of poor health trees in this borough","@fract_bor{0.2f}"]]},"id":"1511","type":"HoverTool"},{"attributes":{"axis":{"id":"1500"},"coordinates":null,"dimension":1,"group":null,"ticker":null},"id":"1503","type":"Grid"},{"attributes":{"axis_label":"Nr. of trees","axis_label_text_font_size":"17pt","coordinates":null,"formatter":{"id":"1584"},"group":null,"major_label_policy":{"id":"1585"},"major_label_text_font_size":"14px","ticker":{"id":"1501"}},"id":"1500","type":"LinearAxis"}],"root_ids":["4450"]},"title":"Bokeh Application","version":"2.4.2"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            const fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  const docs_json = document.getElementById('5487').textContent;
+                  const render_items = [{"docid":"e426fa98-6ff6-41c5-af14-f5e853c67a43","root_ids":["4450"],"roots":{"4450":"3f74f859-bb8b-47fe-900f-9261837e49c8"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    let attempts = 0;
+                    const timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
