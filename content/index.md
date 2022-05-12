@@ -83,7 +83,7 @@ how are they distributed across all five boroughs.
 
 <br>
 
-<iframe class="responsive-iframe" src="trees_boro.html"
+<iframe  src="trees_boro.html"
 	sandbox="allow-same-origin allow-scripts"
 	width="100%"
 	height="600"
@@ -115,7 +115,7 @@ than other boroughs.
 <br>
 
 
-<iframe class="responsive-iframe" src="trees_neigh.html"
+<iframe  src="trees_neigh.html"
 	sandbox="allow-same-origin allow-scripts"
 	width="100%"
 	height="700"
@@ -146,7 +146,7 @@ orange, yellow, green, green, blue and purple. Feel free to play around, zoom in
 
 
 
-<iframe class="responsive-iframe" src="map_tree_allspec.html"
+<iframe  src="map_tree_allspec.html"
 	sandbox="allow-same-origin allow-scripts"
 	width="100%"
 	height="500px"
@@ -170,7 +170,7 @@ of a certain species will exist in "clusters" in a certain part of the city, rat
 
 
 
-<iframe class="responsive-iframe" src="map_tree_London_planetree.html"
+<iframe  src="map_tree_London_planetree.html"
 	sandbox="allow-same-origin allow-scripts"
 	width="100%"
 	height="500px"
@@ -189,7 +189,7 @@ London Planetree is the most abundant out of all species in New York and has the
 
 
 
-<iframe class="responsive-iframe" src="map_tree_Callery_pear.html"
+<iframe src="map_tree_Callery_pear.html"
 	sandbox="allow-same-origin allow-scripts"
 	width="100%"
 	height="500px"
@@ -207,7 +207,7 @@ This species has the highest density in the southwest past of New York, Staten I
 
 
 
-<iframe class="responsive-iframe" src="map_tree_cherry.html"
+<iframe src="map_tree_cherry.html"
 	sandbox="allow-same-origin allow-scripts"
 	width="100%"
 	height="500px"
