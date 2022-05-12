@@ -84,7 +84,7 @@ how are they distributed across all five boroughs.
 <br>
 <div cointainer>
 
-<iframe  src="trees_boro.html" style="-webkit-transform:scale(0.7); -moz-transform-scale(1);
+<iframe  src="trees_boro.html"
 	sandbox="allow-same-origin allow-scripts"
 	width="100%"
 	height="700"
@@ -114,7 +114,7 @@ than other boroughs.
 <br>
 
 
-<iframe  src="trees_neigh.html" style="-webkit-transform:scale(0.8);-moz-transform-scale(0.8);"
+<iframe  src="trees_neigh.html"
 	sandbox="allow-same-origin allow-scripts"
 	width="100%"
 	height="800"
