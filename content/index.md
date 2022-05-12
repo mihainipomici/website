@@ -83,17 +83,15 @@ how are they distributed across all five boroughs.
 
 <br>
 
-<div class="container">
 <iframe class="responsive-iframe" src="trees_boro.html"
 	sandbox="allow-same-origin allow-scripts"
 	width="100%"
-	height="650"
+	height="600"
 	scrolling="yes"
 	allowfullscreen
 	seamless="seamless"
 	frameborder="0">
 </iframe>
-</div>
 
 <br>
 
@@ -116,7 +114,7 @@ than other boroughs.
 
 <br>
 
-<div class="container">
+
 <iframe class="responsive-iframe" src="trees_neigh.html"
 	sandbox="allow-same-origin allow-scripts"
 	width="100%"
@@ -126,7 +124,6 @@ than other boroughs.
 	seamless="seamless"
 	frameborder="0">
 </iframe>
-</div>
 
 <br>
 
@@ -148,7 +145,7 @@ orange, yellow, green, green, blue and purple. Feel free to play around, zoom in
 <center> <h4>Heatmap for all trees in New York</h4> </center>
 
 
-<div class="container">
+
 <iframe class="responsive-iframe" src="map_tree_allspec.html"
 	sandbox="allow-same-origin allow-scripts"
 	width="100%"
@@ -157,7 +154,7 @@ orange, yellow, green, green, blue and purple. Feel free to play around, zoom in
 	seamless="seamless"
 	frameborder="0">
 </iframe>
-</div>
+
 
 
 <br>
@@ -172,7 +169,7 @@ of a certain species will exist in "clusters" in a certain part of the city, rat
 <center> <h4>Heatmap for London Planetree in New York</h4> </center>
 
 
-<div class="container">
+
 <iframe class="responsive-iframe" src="map_tree_London_planetree.html"
 	sandbox="allow-same-origin allow-scripts"
 	width="100%"
@@ -181,7 +178,7 @@ of a certain species will exist in "clusters" in a certain part of the city, rat
 	seamless="seamless"
 	frameborder="0">
 </iframe>
-</div>
+
 
 <br>
 
@@ -191,7 +188,7 @@ London Planetree is the most abundant out of all species in New York and has the
 <center> <h4>Heatmap for Callery Pear in New York</h4> </center>
 
 
-<div class="container">
+
 <iframe class="responsive-iframe" src="map_tree_Callery_pear.html"
 	sandbox="allow-same-origin allow-scripts"
 	width="100%"
@@ -200,7 +197,7 @@ London Planetree is the most abundant out of all species in New York and has the
 	seamless="seamless"
 	frameborder="0">
 </iframe>
-</div>
+
 
 This species has the highest density in the southwest past of New York, Staten Island 
 <br>
@@ -209,7 +206,7 @@ This species has the highest density in the southwest past of New York, Staten I
 <center> <h4>Heatmap for Cherry trees in New York</h4> </center>
 
 
-<div class="container">
+
 <iframe class="responsive-iframe" src="map_tree_cherry.html"
 	sandbox="allow-same-origin allow-scripts"
 	width="100%"
@@ -218,7 +215,7 @@ This species has the highest density in the southwest past of New York, Staten I
 	seamless="seamless"
 	frameborder="0">
 </iframe>
-</div>
+
 
 In general, if we look at the numbers, cherry trees are not so abundant compared to other species. However, most of them
 appear to be located in hotspots for example in the eastern Brooklyn.
