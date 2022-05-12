@@ -12,8 +12,13 @@
 .container {
   width: 100%;
   float: none;
-  display: initial;
   padding-left:  1rem;
   padding-right: 1rem;
   margin: 0 auto;
+  position: absolute;
+  overflow: visible;
+  height: max-content;
+  aspect-ratio: inherit;
+  display: inline-block;
+  padding-top: 62.5%;
 }

@@ -79,11 +79,11 @@ far away from all the traffic and has a bigger fraction of its territory covered
 #### Number of trees in each borough by health status
 
 In our dataset, trees are categorized in three categories by health status: *good, fair* and *poor*. We would like to check
-how are they distributed across all five boroughs.  
+how are they distributed across all five boroughs. 
 
 <br>
 
-<iframe  src="trees_boro.html"
+<iframe  src="trees_boro.html" style="-webkit-transform:scale(0.8);-moz-transform-scale(0.8);
 	sandbox="allow-same-origin allow-scripts"
 	width="100%"
 	height="700"
@@ -92,8 +92,6 @@ how are they distributed across all five boroughs.
 	seamless="seamless"
 	frameborder="0">
 </iframe>
-
-<br>
 
 For all health situations of the trees, we can observe that Brooklyn and Queens have the most trees, it is also explained
 by the bigger area that these boroughs cover with bigger parks but also more residential areas with houses. Manhattan, on
@@ -115,7 +113,7 @@ than other boroughs.
 <br>
 
 
-<iframe  src="trees_neigh.html"
+<iframe  src="trees_neigh.html" style="-webkit-transform:scale(0.8);-moz-transform-scale(0.8);"
 	sandbox="allow-same-origin allow-scripts"
 	width="100%"
 	height="800"
