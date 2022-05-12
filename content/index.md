@@ -82,8 +82,9 @@ In our dataset, trees are categorized in three categories by health status: *goo
 how are they distributed across all five boroughs. 
 
 <br>
+<div cointainer>
 
-<iframe  src="trees_boro.html" style="-webkit-transform:scale(0.8);-moz-transform-scale(0.8);
+<iframe  src="trees_boro.html" style="-webkit-transform:scale(0.7); -moz-transform-scale(1);
 	sandbox="allow-same-origin allow-scripts"
 	width="100%"
 	height="700"
@@ -92,7 +93,7 @@ how are they distributed across all five boroughs.
 	seamless="seamless"
 	frameborder="0">
 </iframe>
-
+</div> 
 For all health situations of the trees, we can observe that Brooklyn and Queens have the most trees, it is also explained
 by the bigger area that these boroughs cover with bigger parks but also more residential areas with houses. Manhattan, on
 the contrary, has the leas amount explained by the fact that there are mostly skyscrapers.
