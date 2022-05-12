@@ -119,8 +119,7 @@ than other boroughs.
 	sandbox="allow-same-origin allow-scripts"
 	width="100%"
 	height="800"
-	scrolling="no"
-	allowfullscreen
+	scrolling="yes"
 	seamless="seamless"
 	frameborder="0">
 </iframe>
