@@ -10,3 +10,6 @@ theme = "hyde"
 
 [markup.goldmark.renderer]
   unsafe = true
+
+[[params.customCSS]]
+ href = "/static/css/widthset.css"
