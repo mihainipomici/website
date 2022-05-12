@@ -81,6 +81,8 @@ far away from all the traffic and has a bigger fraction of its territory covered
 In our dataset, trees are categorized in three categories by health status: *good, fair* and *poor*. We would like to check
 how are they distributed across all five boroughs.  
 
+<br>
+
 <div class="container">
 <iframe class="responsive-iframe" src="trees_boro.html"
 	sandbox="allow-same-origin allow-scripts"
@@ -92,6 +94,8 @@ how are they distributed across all five boroughs.
 	frameborder="0">
 </iframe>
 </div>
+
+<br>
 
 For all health situations of the trees, we can observe that Brooklyn and Queens have the most trees, it is also explained
 by the bigger area that these boroughs cover with bigger parks but also more residential areas with houses. Manhattan, on
@@ -123,6 +127,8 @@ than other boroughs.
 	frameborder="0">
 </iframe>
 </div>
+
+<br>
 
 If we take a look at all boroughs we can observe that neighbourhoods in Queens and Manhattan are the most balanced with
 tree coverage. In Manhattan, Lower Manhattan and Bay Ridge have the least number of trees, and it is explained by the
@@ -176,6 +182,8 @@ of a certain species will exist in "clusters" in a certain part of the city, rat
 	frameborder="0">
 </iframe>
 </div>
+
+<br>
 
 London Planetree is the most abundant out of all species in New York and has the highest densities in Brooklyn and Staten Island. 
 <br>
